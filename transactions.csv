@@ -1,0 +1,13 @@
+date,merchant,amount,category
+2026-08-01,Netflix,499,OTT
+2026-08-02,Amazon Prime,299,OTT
+2026-08-03,Spotify,119,Music
+2026-08-05,Zomato Gold,150,Food Delivery
+2026-08-05,Swiggy One,199,Food Delivery
+2026-08-07,Gym Membership,1200,Fitness
+2026-08-10,Jio Recharge,299,Mobile
+2026-08-15,Airtel Recharge,249,Mobile
+2026-08-20,Netflix,499,OTT
+2026-08-22,YouTube Premium,129,OTT
+2026-08-25,Google One Storage,130,Cloud Storage
+2026-08-28,Dropbox,99,Cloud Storage
