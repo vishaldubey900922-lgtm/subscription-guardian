@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Guardian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛡️ Subscription Guardian</h1>
+        <p>AI-powered analysis of your recurring subscriptions</p>
+    </header>
+
+    <main>
+        <section class="upload-section">
+            <h2>Your Transactions</h2>
+            <table id="transactionsTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Merchant</th>
+                        <th>Amount (₹)</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody id="transactionsBody">
+                    <!-- Filled by JavaScript -->
+                </tbody>
+            </table>
+
+            <button id="analyzeBtn">🔍 Analyze My Subscriptions</button>
+        </section>
+
+        <section class="result-section" id="resultSection" style="display: none;">
+            <h2>📊 Analysis Summary</h2>
+            <div id="summaryStats"></div>
+
+            <h2>🤖 AI Recommendation</h2>
+            <div id="aiRecommendation" class="ai-box">
+                <div class="loader" id="loader">Analyzing...</div>
+                <p id="aiText"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
